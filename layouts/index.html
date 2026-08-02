@@ -1,0 +1,323 @@
+{{ define "main" }}
+
+<main class="premium-home">
+
+    <section class="hero-section">
+
+        <div class="hero-copy">
+
+            <span class="availability-pill">
+                Open to Cloud & DevOps opportunities
+            </span>
+
+            <p class="eyebrow">
+                CLOUD · INFRASTRUCTURE · AUTOMATION
+            </p>
+
+            <h1>
+                Hi, I'm <span>Sai Krishna</span>
+            </h1>
+
+            <h2>
+                Cloud Analyst building secure, scalable,
+                and automated Hybrid Cloud platforms.
+            </h2>
+
+            <p class="hero-summary">
+                I work across Microsoft Azure and on-premises infrastructure,
+                combining Windows Server, Terraform, GitHub Actions,
+                monitoring, migration, and disaster recovery to support
+                reliable enterprise platforms.
+            </p>
+
+            <div class="hero-actions">
+
+                <a class="primary-action" href="/projects/">
+                    Explore Projects
+                </a>
+
+                <a
+                    class="secondary-action"
+                    href="/resume/Vempati_Sai_Krishna_Resume.pdf"
+                >
+                    Download Resume
+                </a>
+
+                <a class="secondary-action" href="/contact/">
+                    Contact Me
+                </a>
+
+            </div>
+
+            <div class="hero-links">
+
+                <a
+                    href="https://github.com/saikrishna844"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    GitHub
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/saikrishna-vempati"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    LinkedIn
+                </a>
+
+                <a
+                    href="https://saikrishnavempati.hashnode.dev"
+                    target="_blank"
+                    rel="noopener"
+                >
+                    Hashnode
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-visual">
+
+            {{ if fileExists "static/images/profile.jpg" }}
+
+                <img
+                    src="/images/profile.jpg"
+                    alt="Professional portrait of Sai Krishna"
+                >
+
+            {{ else }}
+
+                <div class="cloud-mark">
+                    SK
+                </div>
+
+            {{ end }}
+
+            <div class="role-card">
+
+                <strong>Cloud Analyst</strong>
+
+                <span>
+                    Azure · Terraform · Hybrid Cloud
+                </span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="metrics-grid">
+
+        <article>
+            <strong>2.6+</strong>
+            <span>Years of IT Experience</span>
+        </article>
+
+        <article>
+            <strong>500+</strong>
+            <span>Windows Servers Supported</span>
+        </article>
+
+        <article>
+            <strong>50+</strong>
+            <span>Servers Migrated to Azure</span>
+        </article>
+
+        <article>
+            <strong>99%</strong>
+            <span>Infrastructure SLA</span>
+        </article>
+
+    </section>
+
+    <section class="home-section">
+
+        <div class="section-heading">
+
+            <p class="eyebrow">
+                SELECTED WORK
+            </p>
+
+            <h2>
+                Projects demonstrating practical engineering
+            </h2>
+
+            <p>
+                Each project connects architecture, source code,
+                infrastructure automation, troubleshooting,
+                and technical documentation.
+            </p>
+
+        </div>
+
+        <div class="project-grid">
+
+            <article class="project-card featured-card">
+
+                <span class="card-label">
+                    FEATURED PROJECT
+                </span>
+
+                <h3>
+                    Enterprise Azure Landing Zone
+                </h3>
+
+                <p>
+                    Reusable Terraform modules, Azure remote state,
+                    monitoring, networking, security, and GitHub Actions
+                    CI/CD with controlled approvals.
+                </p>
+
+                <div class="tech-row">
+                    <span>Azure</span>
+                    <span>Terraform</span>
+                    <span>GitHub Actions</span>
+                </div>
+
+                <div class="card-links">
+
+                    <a
+                        href="https://github.com/saikrishna844/Azure-Enterprise-Landing-Zone-Using-Terraform"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Source Code
+                    </a>
+
+                    <a
+                        href="https://www.linkedin.com/pulse/building-enterprise-grade-azure-landing-zone-using-code-sai-krishna-bxv4f/"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Read Article
+                    </a>
+
+                </div>
+
+            </article>
+
+            <article class="project-card">
+
+                <span class="card-label">
+                    MULTI-CLOUD
+                </span>
+
+                <h3>
+                    Terraform Azure & AWS Infrastructure
+                </h3>
+
+                <p>
+                    Independent Terraform deployments for Azure networking
+                    and VM resources together with AWS VPC, EC2, and secure S3.
+                </p>
+
+                <div class="tech-row">
+                    <span>Azure</span>
+                    <span>AWS</span>
+                    <span>Terraform</span>
+                </div>
+
+                <div class="card-links">
+
+                    <a
+                        href="https://github.com/saikrishna844/terraform-multi-cloud-basics"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Source Code
+                    </a>
+
+                    <a
+                        href="https://saikrishnavempati.hashnode.dev/terraform-multi-cloud-infrastructure-aws-azure-from-scratch"
+                        target="_blank"
+                        rel="noopener"
+                    >
+                        Read Article
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+        <a class="text-action" href="/projects/">
+            View all projects →
+        </a>
+
+    </section>
+
+    <section class="home-section split-section">
+
+        <div>
+
+            <p class="eyebrow">
+                CORE EXPERTISE
+            </p>
+
+            <h2>
+                Enterprise infrastructure meets modern DevOps
+            </h2>
+
+            <p>
+                My experience spans Azure administration,
+                Windows infrastructure, virtualization,
+                Infrastructure as Code, observability,
+                cloud migration, and disaster recovery.
+            </p>
+
+            <a class="text-action" href="/skills/">
+                Explore technical skills →
+            </a>
+
+        </div>
+
+        <div class="skill-cloud">
+
+            <span>Microsoft Azure</span>
+            <span>Terraform</span>
+            <span>Windows Server</span>
+            <span>GitHub Actions</span>
+            <span>VMware ESXi</span>
+            <span>Hyper-V</span>
+            <span>PowerShell</span>
+            <span>Log Analytics</span>
+            <span>Dynatrace</span>
+            <span>AWS</span>
+
+        </div>
+
+    </section>
+
+    <section class="cta-section">
+
+        <p class="eyebrow">
+            LET'S BUILD RELIABLE INFRASTRUCTURE
+        </p>
+
+        <h2>
+            Looking for a Cloud Analyst with strong infrastructure
+            fundamentals and an automation mindset?
+        </h2>
+
+        <div class="hero-actions">
+
+            <a class="primary-action" href="/contact/">
+                Start a Conversation
+            </a>
+
+            <a class="secondary-action" href="/resume/">
+                Review My Resume
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+{{ end }}

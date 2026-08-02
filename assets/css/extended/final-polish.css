@@ -1,0 +1,257 @@
+/* ==========================================================
+   FINAL PROFESSIONAL POLISH
+   Accessibility, responsiveness, footer, 404 and print
+   ========================================================== */
+
+::selection {
+    background: rgba(79, 156, 255, 0.35);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+
+a,
+button {
+    transition:
+        color 0.2s ease,
+        background-color 0.2s ease,
+        border-color 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+a:focus-visible,
+button:focus-visible {
+    outline: 3px solid #4f9cff;
+    outline-offset: 4px;
+    border-radius: 6px;
+}
+
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+}
+
+.post-content table {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.post-content pre {
+    overflow-x: auto;
+    border-radius: 12px;
+}
+
+.post-content code {
+    overflow-wrap: anywhere;
+}
+
+.custom-404 {
+    min-height: 72vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+.error-code {
+    font-size: clamp(6rem, 20vw, 13rem);
+    font-weight: 900;
+    line-height: 0.85;
+    letter-spacing: -0.08em;
+
+    background:
+        linear-gradient(
+            120deg,
+            #4f9cff,
+            #7c5cff
+        );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.error-label {
+    margin-top: 2rem;
+    font-size: 0.78rem;
+    font-weight: 900;
+    letter-spacing: 0.18em;
+    color: var(--secondary);
+}
+
+.custom-404 h1 {
+    margin: 0.7rem 0;
+    font-size: clamp(2rem, 5vw, 3.6rem);
+    letter-spacing: -0.04em;
+}
+
+.error-description {
+    max-width: 620px;
+    color: var(--secondary);
+    line-height: 1.75;
+}
+
+.error-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem;
+    margin-top: 1.8rem;
+}
+
+.portfolio-footer {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 2.2rem 1.5rem;
+    border-top: 1px solid var(--border);
+    text-align: center;
+}
+
+.footer-identity {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.footer-identity strong {
+    font-size: 1.05rem;
+}
+
+.footer-identity span,
+.footer-credit {
+    color: var(--secondary);
+    font-size: 0.82rem;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.1rem;
+    margin: 1rem 0;
+}
+
+.footer-links a {
+    font-weight: 700;
+    text-underline-offset: 4px;
+}
+
+.footer-credit {
+    margin: 0;
+}
+
+@media (hover: hover) {
+
+    .post-content a:hover,
+    .footer-links a:hover {
+        color: #4f9cff;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .nav {
+        align-items: flex-start;
+    }
+
+    #menu {
+        gap: 0.4rem 0.9rem;
+    }
+
+    #menu a {
+        font-size: 0.88rem;
+    }
+
+    .post-content {
+        font-size: 1rem;
+    }
+
+    .post-content h1 {
+        font-size: 2rem;
+    }
+
+    .post-content h2 {
+        font-size: 1.55rem;
+    }
+
+    .error-actions {
+        width: 100%;
+    }
+
+    .error-actions a {
+        width: 100%;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    *,
+    *::before,
+    *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+@media print {
+
+    .header,
+    .footer,
+    .portfolio-footer,
+    .toc,
+    .share-buttons,
+    .post-nav-links,
+    .breadcrumb {
+        display: none !important;
+    }
+
+    body,
+    .main,
+    .post-single {
+        background: white !important;
+        color: black !important;
+    }
+
+    .main {
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+
+    .post-content a {
+        color: black !important;
+        text-decoration: none !important;
+    }
+
+    .post-content a[href]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+        font-weight: normal;
+    }
+
+    .post-content h1,
+    .post-content h2,
+    .post-content h3 {
+        break-after: avoid;
+    }
+
+    .post-content p,
+    .post-content li {
+        orphans: 3;
+        widows: 3;
+    }
+}

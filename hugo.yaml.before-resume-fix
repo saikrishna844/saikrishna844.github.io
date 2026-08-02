@@ -1,0 +1,80 @@
+baseURL: "http://localhost:1313/"
+locale: "en-us"
+title: "Sai Krishna"
+theme: "PaperMod"
+
+pagination:
+  pagerSize: 10
+
+params:
+  env: production
+  title: "Sai Krishna"
+  description: "Cloud Analyst specializing in Hybrid Cloud, Microsoft Azure, Terraform, Windows Infrastructure, and DevOps automation."
+  author: "Vempati Sai Krishna"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+
+  profileMode:
+    enabled: true
+    title: "Hi, I'm Sai Krishna"
+    subtitle: "Cloud Analyst | Hybrid Cloud Engineer | Azure Administrator | Terraform & DevOps"
+    imageUrl: "/images/profile.jpg"
+    imageWidth: 170
+    imageHeight: 170
+    imageTitle: "Sai Krishna"
+    buttons:
+      - name: "View Projects"
+        url: "/projects/"
+      - name: "Download Resume"
+        url: "/resume/"
+      - name: "Technical Blog"
+        url: "/posts/"
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/saikrishna844"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/saikrishna-vempati"
+    - name: email
+      url: "mailto:vemsaikrishna@gmail.com"
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: experience
+      name: Experience
+      url: /experience/
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 30
+    - identifier: skills
+      name: Skills
+      url: /skills/
+      weight: 40
+    - identifier: certifications
+      name: Certifications
+      url: /certifications/
+      weight: 50
+    - identifier: posts
+      name: Blog
+      url: /posts/
+      weight: 60
+    - identifier: resume
+      name: Resume
+      url: /resume/
+      weight: 70
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 80

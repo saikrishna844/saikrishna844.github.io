@@ -1,0 +1,9 @@
+public/
+resources/_gen/
+.hugo_build.lock
+portfolio-backup-*/
+premium-backup-*/
+final-polish-backup-*/
+hugo-build-output.txt
+.DS_Store
+Thumbs.db

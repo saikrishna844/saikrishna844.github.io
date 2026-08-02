@@ -1,0 +1,13 @@
+:root { --main-width: 980px; }
+.profile .profile_inner h1 { font-size: 3rem; letter-spacing: -0.04em; }
+.profile .profile_inner span { max-width: 760px; font-size: 1.12rem; line-height: 1.8; }
+.button { border-radius: 10px; transition: transform .2s ease, box-shadow .2s ease; }
+.button:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,.16); }
+.post-content { font-size: 1.04rem; }
+.post-content p { line-height: 1.82; }
+.post-content h1 { margin-top: 2.3rem; letter-spacing: -0.035em; }
+.post-content h2 { margin-top: 2.2rem; padding-bottom: .45rem; border-bottom: 1px solid var(--border); }
+.post-content li { margin-bottom: .42rem; }
+.post-content blockquote { padding: 1rem 1.2rem; border-inline-start: 4px solid var(--primary); border-radius: 8px; background: var(--code-bg); }
+.post-content a { font-weight: 650; text-underline-offset: 4px; }
+@media screen and (max-width:768px){ .profile .profile_inner h1{font-size:2.2rem;} .profile .profile_inner span{font-size:1rem;} }
