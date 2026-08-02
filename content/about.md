@@ -1,19 +1,19 @@
-+++
+﻿+++
 title = "About Me"
 description = "Cloud Analyst | Hybrid Cloud Engineer | Azure Administrator | DevOps and Terraform"
 draft = false
 ShowReadingTime = false
 +++
 
-# 👋 Hello, I'm Sai Krishna
+# ðŸ‘‹ Hello, I'm Sai Krishna
 
 I am a **Cloud Analyst** with more than **2.6 years of professional IT experience** supporting, managing, and automating enterprise **Hybrid Cloud infrastructure** across **Microsoft Azure** and on-premises environments.
 
 My professional background combines Azure administration, enterprise Windows infrastructure, VMware and Hyper-V virtualization, Active Directory, Microsoft Entra ID, Terraform Infrastructure as Code, monitoring, disaster recovery, and automation.
 
-## 📊 Professional Snapshot
+## ðŸ“Š Professional Snapshot
 
-- **2.6+ years** of IT experience
+- **2.6 years** of IT experience
 - Hybrid Cloud operations across Azure and on-premises infrastructure
 - Enterprise Windows Server administration
 - Terraform Infrastructure as Code
@@ -22,7 +22,7 @@ My professional background combines Azure administration, enterprise Windows inf
 - Cloud migration, backup, and disaster recovery
 - Technical blogging and GitHub project documentation
 
-## 💼 What I Do
+## ðŸ’¼ What I Do
 
 - Microsoft Azure administration
 - Windows Server and Linux infrastructure
@@ -35,11 +35,11 @@ My professional background combines Azure administration, enterprise Windows inf
 - Azure Backup and Site Recovery
 - PowerShell automation
 
-## 🎯 Career Objective
+## ðŸŽ¯ Career Objective
 
 My goal is to grow as a **Cloud and DevOps Engineer** capable of designing, automating, securing, monitoring, and operating enterprise-grade infrastructure.
 
-## 🤝 Let's Connect
+## ðŸ¤ Let's Connect
 
 - [LinkedIn](https://www.linkedin.com/in/saikrishna-vempati)
 - [GitHub](https://github.com/saikrishna844)
