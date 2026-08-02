@@ -1,17 +1,21 @@
-﻿+++
++++
 title = "About Me"
 description = "Cloud Analyst | Hybrid Cloud Engineer | Azure Administrator | DevOps and Terraform"
 draft = false
 ShowReadingTime = false
+ShowToc = true
+TocOpen = false
 +++
 
-# ðŸ‘‹ Hello, I'm Sai Krishna
+# Hello, I'm Sai Krishna
 
-I am a **Cloud Analyst** with more than **2.6 years of professional IT experience** supporting, managing, and automating enterprise **Hybrid Cloud infrastructure** across **Microsoft Azure** and on-premises environments.
+I am a **Cloud Analyst** with **2.6 years of professional IT experience** supporting, managing, and automating enterprise **Hybrid Cloud infrastructure** across **Microsoft Azure** and on-premises environments.
 
 My professional background combines Azure administration, enterprise Windows infrastructure, VMware and Hyper-V virtualization, Active Directory, Microsoft Entra ID, Terraform Infrastructure as Code, monitoring, disaster recovery, and automation.
 
-## ðŸ“Š Professional Snapshot
+---
+
+## Professional Snapshot
 
 - **2.6 years** of IT experience
 - Hybrid Cloud operations across Azure and on-premises infrastructure
@@ -22,7 +26,9 @@ My professional background combines Azure administration, enterprise Windows inf
 - Cloud migration, backup, and disaster recovery
 - Technical blogging and GitHub project documentation
 
-## ðŸ’¼ What I Do
+---
+
+## What I Do
 
 - Microsoft Azure administration
 - Windows Server and Linux infrastructure
@@ -35,11 +41,15 @@ My professional background combines Azure administration, enterprise Windows inf
 - Azure Backup and Site Recovery
 - PowerShell automation
 
-## ðŸŽ¯ Career Objective
+---
 
-My goal is to grow as a **Cloud and DevOps Engineer** capable of designing, automating, securing, monitoring, and operating enterprise-grade infrastructure.
+## Career Objective
 
-## ðŸ¤ Let's Connect
+My goal is to grow as a **Cloud and DevOps Engineer** capable of designing, automating, securing, monitoring, and operating enterprise-grade infrastructure across cloud and on-premises environments.
+
+---
+
+## Let's Connect
 
 - [LinkedIn](https://www.linkedin.com/in/saikrishna-vempati)
 - [GitHub](https://github.com/saikrishna844)
