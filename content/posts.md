@@ -21,7 +21,7 @@ ShowReadingTime = false
 - [Read Article](https://saikrishnavempati.hashnode.dev/terraform-multi-cloud-infrastructure-aws-azure-from-scratch)
 - [View Repository](https://github.com/saikrishna844/terraform-multi-cloud-basics)
 
-## Part-1-Why-Smart-Engineers-don-t-click-anymore
+## Part-1-Why-Smart-Engineers-don't-click-anymore
 
 **Published on:** Hashnode
 
