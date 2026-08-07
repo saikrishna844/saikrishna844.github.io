@@ -43,7 +43,12 @@ The platform follows Infrastructure as Code (IaC) best practices with modular Te
 
 This project simulates how enterprise organizations provision and manage Azure infrastructure for multiple business units or customers in a secure, scalable, and automated manner.
 
-- [GitHub Repository](https://github.com/saikrishna844/terraform-multi-tenant-azure-platform)
-- [LinkedIn Article](https://www.linkedin.com/pulse/how-i-designed-secure-multi-tenant-enterprise-vempati-sai-krishna-m5xff/)
+
+## Built Automated Azure Terraform Drift Detection with GitHub Actions and OIDC
+
+Built an enterprise-ready Azure Terraform drift detection solution using GitHub Actions and secure, passwordless OIDC authentication. The automated workflow periodically compares the deployed Azure infrastructure against the desired Terraform configuration to identify unauthorized or unintended changes. It generates Terraform plan reports and clearly highlights detected configuration drift without automatically modifying production resources. This approach improves infrastructure governance, security, auditability, and operational reliability while eliminating long-lived Azure credentials.
+
+
+- [GitHub Repository](https://github.com/saikrishna844/azure-terraform-drift-detection)   
 
 
