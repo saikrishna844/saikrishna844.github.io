@@ -51,7 +51,6 @@ Built an enterprise-ready Azure Terraform drift detection solution using GitHub 
 
 
 - [GitHub Repository](https://github.com/saikrishna844/azure-terraform-drift-detection)
-- [GitHub Repository](
 
 ## AI-Assisted Terraform Governance with MCP, GitHub Copilot & Azure 
 
