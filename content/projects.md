@@ -51,4 +51,10 @@ Built an enterprise-ready Azure Terraform drift detection solution using GitHub 
 
 - [GitHub Repository](https://github.com/saikrishna844/azure-terraform-drift-detection)   
 
+## AI-Assisted Terraform Governance with MCP, GitHub Copilot & Azure 
 
+Built an AI-assisted Infrastructure as Code workflow by integrating GitHub Copilot with the HashiCorp Terraform MCP Server for Terraform and AzureRM context. Extended the solution with Azure remote state, GitHub OIDC authentication, protected environments, Terraform plan review, and a mandatory human approval gate before deployment. Implemented exact reviewed-plan execution and Terraform drift detection/remediation to demonstrate a governed cloud infrastructure lifecycle.
+
+- [GitHub Repository](https://github.com/saikrishna844/azure-terraform-mcp-ai)
+
+ 
