@@ -42,19 +42,21 @@ I designed and implemented an Enterprise Multi-Tenant Azure Deployment Platform 
 The platform follows Infrastructure as Code (IaC) best practices with modular Terraform architecture, remote state management, GitHub Actions CI/CD, secure authentication using OpenID Connect (OIDC), Azure governance, monitoring, backup, and production-ready deployment workflows.
 
 This project simulates how enterprise organizations provision and manage Azure infrastructure for multiple business units or customers in a secure, scalable, and automated manner.
-
+  - [GitHub Repository](https://github.com/saikrishna844/terraform-multi-tenant-azure-platform)
+  - [GitHub Repository](https://www.linkedin.com/pulse/how-i-designed-secure-multi-tenant-enterprise-vempati-sai-krishna-m5xff/) 
 
 ## Built Automated Azure Terraform Drift Detection with GitHub Actions and OIDC
 
 Built an enterprise-ready Azure Terraform drift detection solution using GitHub Actions and secure, passwordless OIDC authentication. The automated workflow periodically compares the deployed Azure infrastructure against the desired Terraform configuration to identify unauthorized or unintended changes. It generates Terraform plan reports and clearly highlights detected configuration drift without automatically modifying production resources. This approach improves infrastructure governance, security, auditability, and operational reliability while eliminating long-lived Azure credentials.
 
 
-- [GitHub Repository](https://github.com/saikrishna844/azure-terraform-drift-detection)   
+- [GitHub Repository](https://github.com/saikrishna844/azure-terraform-drift-detection)
+- [GitHub Repository](
 
 ## AI-Assisted Terraform Governance with MCP, GitHub Copilot & Azure 
 
 Built an AI-assisted Infrastructure as Code workflow by integrating GitHub Copilot with the HashiCorp Terraform MCP Server for Terraform and AzureRM context. Extended the solution with Azure remote state, GitHub OIDC authentication, protected environments, Terraform plan review, and a mandatory human approval gate before deployment. Implemented exact reviewed-plan execution and Terraform drift detection/remediation to demonstrate a governed cloud infrastructure lifecycle.
 
 - [GitHub Repository](https://github.com/saikrishna844/azure-terraform-mcp-ai)
-
+- [LinkedIn Article](https://www.linkedin.com/pulse/i-added-human-approval-gate-my-ai-assisted-terraform-why-sai-krishna-1itgf/) 
  
