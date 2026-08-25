@@ -11,7 +11,13 @@ ShowReadingTime = false
 
 **Issued By:** Microsoft  
 **Credential:** Expert  
-[View Certificate](https://drive.google.com/file/d/1VzR_OLYmMjoHqXlEkd7whqEGQB9TmYVl/view?usp=drive_link)
+[View Certificate](https://drive.google.com/file/d/1VzR_OLYmMjoHqXlEkd7whqEGQB9TmYVl/view?usp=drive_link)   
+
+## Microsoft Certified: Microsoft Certified: Azure Solutions Architect Expert (AZ-305)
+
+**Issued By:** Microsoft  
+**Credential:** Expert  
+[View Certificate](https://drive.google.com/file/d/17tEZUWLGXnqA923Y8qsNoy43NO8Mqhtf/view?usp=drive_link)
 
 ## Microsoft Certified: Azure Administrator Associate (AZ-104)
 
