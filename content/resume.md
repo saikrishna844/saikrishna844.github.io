@@ -13,7 +13,7 @@ ShowReadingTime = false
 
 ## 📥 Download Resume
 
-### [Download Latest Resume PDF](/resume/Vempati_Sai_Krishna__Resume.pdf)
+### [Download Latest Resume PDF](/resume/Sai-Krishna-Resume.pdf)
 
 ## Professional Highlights
 
