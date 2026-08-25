@@ -57,5 +57,24 @@ Built an enterprise-ready Azure Terraform drift detection solution using GitHub 
 Built an AI-assisted Infrastructure as Code workflow by integrating GitHub Copilot with the HashiCorp Terraform MCP Server for Terraform and AzureRM context. Extended the solution with Azure remote state, GitHub OIDC authentication, protected environments, Terraform plan review, and a mandatory human approval gate before deployment. Implemented exact reviewed-plan execution and Terraform drift detection/remediation to demonstrate a governed cloud infrastructure lifecycle.
 
 - [GitHub Repository](https://github.com/saikrishna844/azure-terraform-mcp-ai)
-- [LinkedIn Article](https://www.linkedin.com/pulse/i-added-human-approval-gate-my-ai-assisted-terraform-why-sai-krishna-1itgf/) 
+- [LinkedIn Article](https://www.linkedin.com/pulse/i-added-human-approval-gate-my-ai-assisted-terraform-why-sai-krishna-1itgf/)
+
+  ## Azure FinOps and Automated Terraform Drift Detection
+
+Designed and implemented an Azure governance solution combining FinOps practices with automated Terraform drift detection. The project uses GitHub Actions and passwordless OpenID Connect (OIDC) authentication to securely compare deployed Azure infrastructure with Terraform configuration, identify unauthorized changes, and support better cost visibility and governance.
+
+**Key Technologies:** Azure, Terraform, GitHub Actions, OIDC, Azure Cost Management, FinOps, Infrastructure as Code (IaC)
+
+- [GitHub Repository](https://github.com/saikrishna844/azure-terraform-drift-detection)
+- [LinkedIn Article](https://www.linkedin.com/pulse/building-azure-terraform-finops-platform-catching-cost-sai-krishna-9bymf/) 
+
+
+## Zero-Trust Access to Private Azure Infrastructure with HCP Boundary
+
+Designed and implemented a Zero-Trust remote-access solution using HashiCorp Cloud Platform (HCP) Boundary to securely connect users to a private Azure Linux virtual machine without exposing it through a public IP address. The solution demonstrates identity-based authorization, dynamic credential injection, least-privilege access, private networking, and centralized session control.
+
+**Key Technologies:** Microsoft Azure, HCP Boundary, Linux, SSH, Azure Virtual Network, Zero Trust, IAM, Credential Injection
+
+- [GitHub Repository](https://github.com/saikrishna844/azure-hcp-boundary-zero-trust/)
+- [LinkedIn Article](https://www.linkedin.com/pulse/building-zero-trust-access-private-azure-hcp-boundary-sai-krishna-ejmef/) 
  
