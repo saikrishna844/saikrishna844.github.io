@@ -13,7 +13,7 @@ ShowReadingTime = false
 
 ## 📥 Download Resume
 
-### [Download Latest Resume PDF](/resume/Sai-Krishna-Resume.pdf)
+📄 [Download My Resume](/resume/Sai__Krishna__Resume.pdf)
 
 ## Professional Highlights
 
